@@ -25,7 +25,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    max-width: 1840px;
+    width: 1840px;
     margin: 0 auto;
     padding: 0;
 }
@@ -64,7 +64,7 @@ body{
 
 /*display1_main*/
 .display_main{
-    max-width: 1840px;
+    width: 1840px;
     height: 1005px;    
     background-color: #E5E5E5;    
 }
@@ -175,17 +175,17 @@ body{
 
 .display2_meeting{
     margin: 0 auto;
-    max-width: 1146px;
+    width: 1146px;
     height: 1500px;    
 }
 .learning{
     margin: 40px 0 0 0;
-    max-width: 1150px;
+    width: 1150px;
     height: 232px;    
     text-align: center;
 }
 .block1_learning h2{
-    max-width: 703px;
+    width: 703px;
     padding-bottom: 40px;
     margin: 0 auto;
 }
@@ -234,7 +234,7 @@ body{
 }
 .block2_learning{
     position: absolute;
-    max-width: 906px;
+    width: 906px;
     height: 1208px;    
     display: grid;
     row-gap: 20px;
@@ -251,14 +251,14 @@ body{
 /*display3_FitnessPlans*/
 
 .display3_FitnessPlans{
-    max-width: 1840px;
+    width: 1840px;
     height: 1075px;
     background-color:#EEF0F4;
     background-image: url(../img/background.svg);
     background-size: cover;
 }
 .fitnessPlans{
-    max-width: 1425px;
+    width: 1425px;
     height: 1075px;
     margin: 0 auto;
 
@@ -267,21 +267,21 @@ body{
     margin-left: 94px;
 }
 .block1_fitnesText h2, p {
-    max-width: 674px;
+    width: 674px;
     margin-bottom: 40px;
 }
 .fitness_colums{
     display: grid;
     row-gap: 20px;
     grid-template-columns: auto auto auto;
-    max-width: 1424px;
+    width: 1424px;
     height: 596px;
     margin: 0 auto;
 
 }
 .workOut{
     position: relative;
-    max-width: 423px;
+    width: 423px;
     height: 561px;
     margin-top: 60px;
     transition: 0.5s;
@@ -351,7 +351,7 @@ body{
 }
 .display4_video h1{
     z-index: 1;
-    max-width: 1777px;
+    width: 1777px;
     align-items: center;
     text-align: right;
     margin-top: 210px;
@@ -359,14 +359,14 @@ body{
 .video{
     position: absolute;
     z-index: -1;
-    max-width: 100%;    
+    width: 100%;    
 
 }
 
 
 /*FitnessPlans*/
 .display5_FitnessPlans{
-    max-width: 1840px;
+    width: 1840px;
     height: 1075px;
     margin-top: 560px;
     background-color:#081158;    
@@ -375,7 +375,7 @@ body{
 
 .workOut2{
     position: relative;
-    max-width: 423px;
+    width: 423px;
     height: 561px;
     margin-top: 80px;
     transition: 0.5s;
@@ -389,7 +389,7 @@ body{
     box-shadow: -1px 25px 32px -5px rgba(12, 22, 29, 0.7);
 }
 .block1_fitnesText2 h2, p {
-    max-width: 674px;
+    width: 674px;
     margin-bottom: 40px;
 }
 .block1_fitnesText2 h2{
@@ -440,11 +440,11 @@ body{
 /*display6*/
 .display6_Benefits{
     margin-top: 150px;
-    max-width: 1830px;
+    width: 1830px;
     height: 793px;
 }
 .benefits_main{
-    max-width: 1538px;
+    width: 1538px;
     height: 746px;
     margin: 170px 0 0 296px;
     display: flex;
@@ -455,11 +455,11 @@ body{
     margin-top: 100px;
 }
 .benefits_text h2 {
-    max-width: 618px;  
+    width: 618px;  
 
 }
 .benefits_text p {
-    max-width: 460px;
+    width: 460px;
     margin-bottom: 80px;  
 
 }
@@ -499,7 +499,7 @@ body{
 }
 /*display8*/
 .display8_main{
-    max-width: 1840px;
+    width: 1840px;
     height: 856px; 
     overflow: hidden;
 
@@ -512,7 +512,7 @@ body{
 .slick{
     position: relative;
     z-index: 0;
-    max-width: 1840px;
+    width: 1840px;
     height: 659px;
     background-color: #081158;
     background-image: url(../img/background_displa8.svg);
@@ -521,7 +521,7 @@ body{
 .slick_content{
     position: relative;
     top: 200px;
-    max-width: 955px;
+    width: 955px;
     height: 304px;
     margin: 0 auto;
     padding:  0px 30px;   
@@ -620,11 +620,11 @@ body{
     width: 1840px;
 }
 .display9_main{
-    max-width: 1840px;
+    width: 1840px;
     height: 1125px;
 }
 .potstMain_text{
-    max-width: 1840px;
+    width: 1840px;
     height: 292px;
     margin-bottom: 50px;
 }
@@ -654,7 +654,7 @@ body{
     text-decoration-line: underline;
 }
 .posts{
-    max-width: 1356px;
+    width: 1356px;
     height: 600px;
     margin: 0 auto;    
     overflow: hidden;
@@ -778,14 +778,14 @@ body{
 
 /*display9*/
 .display10_socialMedia{    
-    max-width: 1840px;
+    width: 1840px;
     height: 1282px;    
     background-color: #EEF0F4;
 }
 .display10_main{
     position: relative;
     top: 200px;
-    max-width: 1840px;
+    width: 1840px;
     height: 908px;
     overflow: hidden;
 }
